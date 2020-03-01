@@ -1,0 +1,116 @@
+.hourly .day {
+  text-align: left;
+}
+
+.hourly .weather-icon {
+  text-align: center;
+}
+
+.forecast .rain, .forecast .snow {
+    color: lightgray;
+}
+
+.hourly table {
+  float: right;
+  width: 330px;
+  margin-top: -5px;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+}
+
+.hourly table tr:nth-child(1):nth-child(3):nth-child(4) {
+  width: 20%;
+}
+
+.hourly table tr:nth-child(2) {
+  width: 10%;
+}
+
+.hourly table tr:nth-child(5) {
+  width: 30%;
+}
+
+.hourly tr.colored .min-temp {
+  color: skyblue;
+}
+
+.hourly tr.colored .max-temp {
+  color: tomato;
+}
+
+.hourly tr:nth-child(1) td:nth-child(1) {
+  text-indent: -9999px;
+  line-height: 0;
+}
+
+.hourly tr:nth-child(1) td:nth-child(1)::after {
+  text-indent: 0;
+  content: "Acum";
+  display: block;
+  line-height: initial;
+  color: lime;
+}
+
+.hourly .wi-day-sunny {
+    color: orange;
+}
+
+.hourly .wi-day-cloudy {
+    color: DarkKhaki;
+}
+
+.hourly .wi-cloudy-windy {
+    color: skyblue;
+}
+
+.hourly .wi-cloudy {
+    color: powderblue;
+}
+
+.hourly .wi-showers {
+    color: skyblue;
+}
+
+.hourly .wi-rain {
+    color: dodgerblue;
+}
+
+.hourly .wi-thunderstorm {
+    color: royalblue;
+}
+
+.hourly .wi-snow {
+    color: snow;
+}
+
+.hourly .wi-fog {
+    color: white;
+}
+
+.hourly .wi-night-clear {
+    color: white;
+}
+
+.hourly .wi-night-cloudy {
+    color: powderblue;
+}
+
+.hourly .wi-night-showers {
+    color: dodgerblue;
+}
+
+.hourly .wi-night-rain {
+    color: dodgerblue;
+}
+
+.hourly .wi-night-thunderstorm {
+    color: royalblue;
+}
+
+.hourly .wi-night-snow {
+    color: snow;
+}
+
+.hourly .wi-night-alt-cloudy-windy {
+    color: skyblue;
+}

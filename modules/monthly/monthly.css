@@ -1,0 +1,47 @@
+#calendar-table {
+	position: relative;
+    top: 25px;
+	width: 330px;
+	border-spacing: 3px;
+	line-height: 1.4rem;
+	padding-bottom: 20px;
+}
+
+#calendar-table td:nth-child(6),
+#calendar-table td:nth-child(7) {
+  color: skyblue;
+}
+
+#calendar-table .calendar-header-day {
+	text-align: center;
+	color: lightgray;
+}
+
+#calendar-table .calendar-day {
+	text-align: center;
+	width: 14.3%;
+}
+
+#calendar-table .daily {
+    
+}
+
+#calendar-table .today {
+	color: lime;
+	font-weight: 800;
+	font-size: 120%;
+}
+
+#calendar-table .thead, #calendar-table .tfoot {
+	display: none;
+}
+
+#calendar-table .monthPrev {
+	color: dimgray;
+	opacity: 0.75;
+}
+
+#calendar-table .monthNext {
+	color: dimgray;
+	opacity: 0.75;
+}

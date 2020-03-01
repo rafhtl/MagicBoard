@@ -1,0 +1,304 @@
+html {
+  -webkit-transform:translateZ(0);
+  -webkit-transform:translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-perspective: 1000;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  overflow: hidden;
+  cursor: text;
+  background: black;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  color: lightgray;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  transform-origin: 0 0;
+  -webkit-transform-origin: 0 0;
+  transition: all 0.5s ease;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricprecision;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+canvas {
+    opacity: 0;
+}
+
+.fade {
+  color: dimgray;
+}
+
+.shade {
+  color: gray;
+}
+
+.dimmed {
+  color: silver;
+}
+
+.normal {
+  color: lightgray;
+}
+
+.bright {
+  color: white;
+}
+
+.xxsmall {
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+}
+
+.xsmall {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.qsmall {
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+}
+
+.ssmall {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+.small {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.medium {
+  font-size: 1.9rem;
+  line-height: 2.1rem;
+}
+
+.large {
+  font-size: 6.5rem;
+  line-height: 6.7rem;
+}
+
+.xlarge {
+  font-size: 7.5rem;
+  line-height: 7.7rem;
+}
+
+.thin {
+  font-family: Roboto, sans-serif;
+  font-weight: 100;
+}
+
+.light {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+}
+
+.regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+}
+
+.bold {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 500;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+header {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid #666;
+  line-height: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  color: #999;
+}
+
+sup {
+  font-size: 50%;
+  line-height: 50%;
+}
+
+sub {
+  font-size: 50%;
+  position: relative;
+  top: -6px;
+}
+
+.module {
+  margin-bottom: 5px;
+}
+
+.region.bottom .module {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.no-wrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pre-line {
+  color: LightSkyBlue;
+  white-space: pre-line;
+}
+
+.region {
+  position: absolute;
+}
+
+.region.fullscreen {
+  pointer-events: none;
+}
+
+.region.fullscreen * {
+  pointer-events: auto;
+}
+
+.fullscreen.below {
+/*  background: transparent url("earth.png") no-repeat center;
+  background-size: cover;
+  opacity: 0.2; */
+} 
+
+.fullscreen.above {
+    border: 0;
+}
+
+.region.right {
+  right: 5px;
+  text-align: right;
+}
+
+.region.top {
+  top: 5px;
+}
+
+.region.top .container {
+  margin-bottom: 25px;
+}
+
+.region.bottom .container {
+  margin-top: 25px;
+}
+
+.region.top .container:empty {
+  margin-bottom: 0;
+}
+
+.region.top.center,
+.region.bottom.center {
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.region.top.right,
+.region.top.left,
+.region.top.center {
+  top: 100%;
+}
+
+.region.bottom {
+  bottom: 5px;
+}
+
+.region.bottom .container:empty {
+  margin-top: 0;
+}
+
+.region.bottom.right,
+.region.bottom.center,
+.region.bottom.left {
+  bottom: 100%;
+}
+
+.region.bar {
+  width: 100%;
+  text-align: center;
+}
+
+.region.third,
+.region.middle.center {
+  width: 100%;
+  text-align: center;
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.region.upper.third {
+  top: 65%;
+}
+
+.region.middle.center {
+  top: 76%;
+}
+
+.region.lower.third {
+  top: 92%;
+}
+
+.region.left {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.region table {
+  border-spacing: 0;
+  border-collapse: separate;
+}
+
+@media screen and (max-height: 800px) {
+    body {
+      min-height: 800px;
+    }
+    
+    .region.bottom {
+        bottom: 0px;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    .region.upper.third {
+      top: 90%;
+    }
+    
+    .region.middle.center {
+      top: 55%;
+    }
+    
+    .region.lower.third {
+      top: 96%;
+    }
+}

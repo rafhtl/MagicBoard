@@ -1,0 +1,236 @@
+.weather .bright {
+    position: relative;
+    left: 30px;
+    top: -10px;
+    letter-spacing: -5px;
+}
+
+.weather .descr, .weather .real {
+  position: relative;
+  top: -25px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+.weather .rfd {
+  margin-bottom: -15px;
+}
+
+.weather .descr::first-letter {
+  text-transform: capitalize;
+}
+
+.weather .weathericon {
+	position: relative;
+	top: 15px;
+	height: 70px;
+	float: left;
+}
+
+.weather .wi-thermometer, .weather .wi-humidity, .weather .wi-sunset, .weather .wi-sunrise {
+  font-size: 65%;
+  padding: 0 3px;
+}
+
+.pressure {
+	margin-right: -10px;
+}
+
+.pressure sub {
+	position: relative;
+	top: -5px;
+	left: -16px;
+	font-size: 50%;
+}
+
+.weather .deg {
+    font-size: 50%;
+    position: relative;
+    left: -30px;
+    font-weight: 400;
+}
+
+.weather .wi-thermometer {
+  position: relative;
+  top: -1px;
+  color: gold;
+}
+
+.weather .maxTemp {
+  color: tomato;
+}
+
+.weather .minTemp {
+  color: skyblue;
+}
+
+.weather .minMax {
+    color: silver;
+}
+
+.weather .mmx {
+  position: relative;
+  top: -15px;
+}
+
+.weather .wi-humidity, .weather .wi-raindrop {
+  position: relative;
+  top: -2px;
+  color: SkyBlue;
+}
+
+.weather .wi-sunset, .weather .wi-sunrise {
+  position: relative;
+  top: -2px;
+  color: Goldenrod;
+}
+
+.weather .wi-strong-wind {
+  color: cyan;
+}
+
+.darkred {
+	color: darkred;
+}
+
+.redrf {
+	color: red;
+}
+
+.orangered {
+	color: orangered;
+}
+
+.tomato {
+	color: tomato;
+}
+
+.coral {
+	color: coral;
+}
+
+.darkorange {
+	color: darkorange;
+}
+
+.orange {
+	color: orange;
+}
+
+.gold {
+	color: gold;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.greenyellow {
+	color: greenyellow;
+}
+
+.chartreuse {
+	color: chartreuse;
+}
+
+.lawngreen {
+	color: lawngreen;
+}
+
+.lime {
+	color: lime;
+}
+
+.powderblue {
+	color: powderblue;
+}
+
+.lightblue {
+	color: lightblue;
+}
+
+.skyblue {
+	color: skyblue;
+}
+
+.lightskyblue {
+	color: lightskyblue;
+}
+
+.deepskyblue {
+	color: deepskyblue;
+}
+
+.dodgerblue {
+	color: dodgerblue;
+}
+
+.weather .wi-day-sunny {
+content: url("../../css/icons/clear.png");
+	height: 100px;
+	top: -5px;
+}
+
+.weather .wi-day-cloudy {
+content: url("../../css/icons/mostlysunny.png");
+}
+
+.weather .wi-rain {
+content: url("../../css/icons/rain.png");
+}
+
+.weather .wi-night-clear {
+content: url("../../css/icons/nt_clear.png");
+	height: 110px;
+	top: -5px;
+}
+
+.weather .wi-night-cloudy {
+content: url("../../css/icons/nt_cloudy.png");
+}
+
+.weather .wi-cloudy {
+content: url("../../css/icons/cloudy.png");
+}
+
+.weather .wi-showers {
+content: url("../../css/icons/chancerain.png");
+}
+
+.weather .wi-thunderstorm {
+content: url("../../css/icons/tstorms.png");
+}
+
+.weather .wi-snow {
+content: url("../../css/icons/snow.png");
+}
+
+.weather .wi-cloudy-windy {
+content: url("../../css/icons/mostlycloudy.png");
+}
+
+.weather .wi-night-rain {
+content: url("../../css/icons/nt_rain.png");
+}
+
+.weather .wi-night-snow {
+content: url("../../css/icons/nt_snow.png");
+}
+
+.weather .wi-night-thunderstorm {
+content: url("../../css/icons/nt_tstorms.png");
+}
+
+.weather .wi-night-showers {
+content: url("../../css/icons/nt_chancerain.png");
+}
+
+.weather .wi-fog {
+content: url("../../css/icons/cloudy.png");
+}
+
+.weather .wi-night-alt-cloudy-windy {
+content: url("../../css/icons/nt_hazy.png");
+	height: 90px;
+	top: 5px;
+}

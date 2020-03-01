@@ -1,0 +1,82 @@
+body,
+html {
+  -webkit-transform:translateZ(0);
+  -webkit-transform:translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-perspective: 1000;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricprecision;
+  overflow: hidden;
+}
+
+.ical {
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: clip;    
+}
+
+.calendar-table {
+  font-size: 1rem;
+  line-height: 1.15rem;
+  width: 330px;
+  white-space: nowrap; 
+  text-overflow: clip;
+  overflow: hidden;
+}
+
+.calendar-table .description::first-letter {
+  text-transform: capitalize;
+}
+
+.calendar-table .calendar-icon {
+  width: 1rem;
+  min-width: 1rem;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.fa-calendar, .fa-calendar-check, .fa-calendar-check-o {
+  color: skyblue;
+}
+
+.fa-registered {
+  color: lightgreen;
+}
+
+.fa-product-hunt {
+  color: tomato;
+}
+
+.fa-birthday-cake {
+  color: gold;
+}
+
+.fa-film {
+  color: magenta;
+}
+
+.calendar-table .description {
+  white-space: nowrap;
+}
+
+.calendar-table .days {
+  padding-left: 5px;
+  text-align: right;
+  white-space: nowrap; 
+  text-overflow: clip;
+  overflow: hidden;
+  border: 0;
+  color: darkgray;
+}
