@@ -2,6 +2,8 @@
 
 Smartboard v2 for iPad
 
+<img src=https://github.com/hangorazvan/smartboard/blob/master/preview.png>
+
 Customized personal webpage powered by first version and MagicMirror2 open source modular smart mirror platform core framework without local node server and Raspberry Pi or any other wierd linux software. Only 3.5MB (90 files) vs 250MB (23844 files)
 
 Based on:
