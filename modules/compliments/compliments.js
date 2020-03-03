@@ -2,198 +2,80 @@ Module.register("compliments", {
 	defaults: {
 				compliments: {
 					anytime : [
-						"Fi tu însuți, sexy!",
-						"Orice faci, fă-o bine!",
+						"Hello sexy thing!",
 					],
 					sleep : [
-						"De ce nu dormi?",
-						"Știi cât e ceasul?",
-						"Ai vreun coșmar?",
-						"Ai fost la baie?",
+						"Why you don't sleep?",
 					],
 					morning : [
-						"Dimineață frumoasă!",
-						"Bună dimineața!",
-						"Dimineață frumoasă!",
-						"Bună dimineața!",
-						"Ai dormit bine?",
-						"Să ai poftă la cafea?",
+						"Good morning",
 					],
 					noon : [
-						"Un prânz excelent!",
-						"Poftă bună la prânz!",
-						"O zi cât mai bună!",
-						"O zi fantastică!",
-						"O zi și mai bună!",
-						"O zi și mai fantastică!",
+						"Hava a good day",
 					],
 					afternoon : [
-						"O după amiază bună!",
-//						"Bună ziua!",
-						"O zi cât mai bună!",
-						"O zi excelentă!",
+						"Good afternoon",
 					],
 					evening : [
-						"O seară minunată!",
-//						"Bună seara!",
-						"O seară liniștită!",
-						"O seară plăcută!",
+						"Good evening",
 					],
 					night : [
-						"Somn ușor!",
-						"Noapte bună!",
-						"Vise plăcute!",
-						"Să visezi frumos!",
+						"Good night",
 					],
 					day_sunny : [
-						"Este o zi însorită",
-						"Este frumos afară",
+						"Sunny",
 					],
 					day_cloudy : [
-						"Sunt câțiva nori",
-						"Norișori pe cer",
+						"Cloudy",
 					],
 					cloudy : [
-						"Este înorat afară",
-						"O zi cam înorată",
+						"Cloudy",
 					],
 					cloudy_windy : [
-						"Este înorat și vânt",
-						"Bate vântul și e înorat",
+						"Cloudy windy",
 					],
 					shower : [
-						"Afară plouă puțin",
-						"Plouă puțin pe afară",
+						"Rain shower",
 					],
 					rain : [
-//						"Să-ți iei umbrela!",
-						"Vreme ploioasă",
-						"Ploaie ușoară",
+//						"Rain",
 					],
 					tunderstorm : [
-						"Afară este furtună!",
-						"Atenție, furtună!",
+						"Thunderstorm",
 					],
 					snow : [
-						"Afară ninge!",
-						"Este ninsoare",
+						"Snow",
 					],
 					fog : [
-						"Afară este ceață",
-						"Vreme cu ceață",
+						"Fog",
 					],
 					night_clear : [
-						"Cerul este senin",
-						"Este senin afară",
+						"Clear night",
 					],
 					night_cloudy : [
-						"Este înorat afară",
-						"Este cam înorat",
+					        "Night cludy",
 					],
 					night_showers : [
-						"Afară plouă mărunt",
-						"Ploaie măruntă",
+					        "Night showers",
 					],
 					night_rain : [
-						"Afară plouă",
-						"Vreme ploioasă",
+					        "Raining night",
 					],
 					night_thunderstorm : [
-						"Vreme furtunoasă!",
-						"Nu e vreme de ieșit!",
+					        "Thunderstorm night",
 					],
 					night_snow : [
-						"Vreme cu ninsoare",
-						"Afară ninge!",
+					        "Snowing night",
 					],
 					night_alt_cloudy_windy : [
-						"Vreme noroasă cu vânt",
-						"Vreme cu vânt și nori",
+					        "Night clouds and wind",
+					], 
+                                        2512 : [
+					        "Marry Christmas",
 					],
-					1310 : [
-						"La mulți ani Răzvan!",
-						"La mulți ani Răzvan!",
-					],
-					2208 : [
-						"La mulți ani Paula!",
-						"La mulți ani Paula!",
-					],
-					1902 : [
-						"La mulți ani Vlad!",
-						"La mulți ani Vlad!",
-					],
-					2402 : [
-						"La mulți ani Alexandra!",
-						"La mulți ani Alexandra!",
-					],
-					1412 : [
-						"La mulți ani Costin!",
-						"La mulți ani Costin!",
-					],
-					0502 : [
-						"La mulți ani Ștefania!",
-						"La mulți ani Ștefania!",
-					],
-					2102 : [
-						"La mulți ani Preoteasa!",
-						"La mulți ani Preoteasa!",
-					],
-					1004 : [
-						"La mulți ani Nelu!",
-						"La mulți ani Nelu!",
-					],
-					0107 : [
-						"La mulți ani Gabi!",
-						"La mulți ani Gabi!",
-					],
-					1505 : [
-						"La mulți ani Laura!",
-						"La mulți ani Laura!",
-					],
-					3005 : [
-						"La mulți ani Dan!",
-						"La mulți ani Dan!",
-					],
-					0708 : [
-						"La mulți ani Mariana!",
-						"La mulți ani Mariana!",
-					],
-					2710 : [
-						"La mulți ani Vali!",
-						"La mulți ani Vali!",
-					],
-					0112 : [
-						"La mulți ani România!",
-						"La mulți ani România!",
-					],
-					2512 : [
-						"Crăciun fericit!",
-						"Sărbători fericite!",
-						"Crăciun fericit!",
-						"Sărbători fericite!",
-					],
-					2612 : [
-						"Crăciun fericit!",
-						"Sărbători fericite!",
-						"Crăciun fericit!",
-						"Sărbători fericite!",
-					],
-					0102 : [
-						"La mulți ani! " + moment().format('YYYY'),
-						"Un An Nou fericit!",
-						"La mulți ani! " + moment().format('YYYY'),
-						"Un An Nou fericit!",
-					],
-					0102 : [
-						"La mulți ani! " + moment().format('YYYY'),
-						"Un An Nou fericit!",
-						"La mulți ani! " + moment().format('YYYY'),
-						"Un An Nou fericit!",
-					],
-					1402 : [
-						"Happy Valentine's Day!",
-						"Happy Valentine's Day!",
-					],
+                                        0101 : [
+					        "Happy New year!",
+					],		
 				},
 		updateInterval: 30000,
 		remoteFile: null,
