@@ -7,7 +7,7 @@
 	padding-bottom: 20px;
 }
 
-#calendar-table td:nth-child(6),
+#calendar-table td:nth-child(1),
 #calendar-table td:nth-child(7) {
   color: skyblue;
 }

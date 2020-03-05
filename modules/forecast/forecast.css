@@ -34,7 +34,7 @@
 
 .forecast table tr:nth-child(1) td:nth-child(1)::after {
   text-indent: 0;
-  content: "Azi";
+  content: "Today";
   display: block;
   line-height: initial;
   color: lime;

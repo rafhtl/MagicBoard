@@ -22,8 +22,8 @@
 
 .clock sup {
   position: relative;
-  top: 35px;
-  font-size: 75%;
+  top: 40px;
+  font-size: 40%;
 }
 
 .clock .week, .sun, .moon {
