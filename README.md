@@ -1,6 +1,6 @@
 # smartboard
 
-Smartboard v2 for iPad
+MagicBoard v2 for iPad
 
 <img src=https://github.com/hangorazvan/smartboard/blob/master/preview.png>
 
