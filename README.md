@@ -1,4 +1,4 @@
-# smartboard
+# MagicBoard
 
 MagicBoard v2 for iPad
 
