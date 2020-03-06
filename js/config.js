@@ -1,12 +1,12 @@
 var config = {
 	language:    "en",
-	timeFormat:   12, //24
-	units:       "imperial", // metric
-	latitude:    "36.970019",
-	longitude:   "-122.042212",
-	location:    "Santa Cruz",
-	locationID:  "5393052",
-	timezone:    "America/Los_Angeles",
+	timeFormat:   24, //12
+	units:       "metric", // imperial
+	latitude:    "51.5085",
+	longitude:   "-0.1257",
+	location:    "London",
+	locationID:  "2643743",
+	timezone:    "Europe/London",
 	decimal: ".",
 	appid: '9bb3595ea8a97029639704c7d9ce56a0',
 	customCss: "css/main.css",

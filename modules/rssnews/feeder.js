@@ -1,11 +1,8 @@
 var feedURLs = {
-			    'Los Angeles Times'             : 'https://www.latimes.com/world-nation/rss2.0.xml#nt=1col-7030col1',
-                'New York Times'                : 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml',
-                'Washington Post'	            : 'http://feeds.washingtonpost.com/rss/national',
-                'Mercury News'	                : 'https://www.mercurynews.com/feed',
-                'Centers for Disease Control'	: 'https://tools.cdc.gov/api/v2/resources/media/403372.rss',
-                'Johns Hopkins Medicine'	    : 'https://www.hopkinsmedicine.org/news/media/releases/?format=rss',
-                'World Health Organization'	    : 'https://www.who.int/feeds/entity/csr/don/en/rss.xml',
+			    'The Week' : 'https://www.theweek.co.uk/feeds/all',
+                'The Independent'       : 'http://www.independent.co.uk/news/uk/rss',
+                'Dailymail Latest'	      : 'https://www.dailymail.co.uk/articles.rss',
+                'Dailymail Top Stories'      : 'https://www.dailymail.co.uk/home/index.rss',
                 };
 var feedMaxAge = {days: 0, hours: 12};
 /*************** DO NOT EDIT BELOW THIS LINE ***************/

@@ -12,8 +12,8 @@ Module.register("clock",{
 
 		timeFormat: config.timeFormat,
 		displaySeconds: true,
-		showPeriod: true,
-		showPeriodUpper: true,
+		showPeriod: false,
+		showPeriodUpper: false,
 		clockBold: false,
 		showDate: true,
 		showWeek: true,

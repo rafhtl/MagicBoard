@@ -7,12 +7,12 @@ var config = {
         urls: [
     		{
 			  symbol: 'calendar-check-o', 
-              url: 'https://www.calendarlabs.com/ical-calendar/ics/41/Christian_Holidays.ics',
+              url: 'https://www.calendarlabs.com/ical-calendar/ics/75/UK_Holidays.ics',
     		},
-  		    {
-  			  symbol: 'calendar-check',
-  			  url: 'https://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics',
-  		    },
+//  		    {
+//  			  symbol: 'calendar-check',
+//  			  url: 'https://www.calendarlabs.com/ical-calendar/ics/226/UN_Holidays.ics',
+//  		    },
   		    {
   			  symbol: 'calendar',
   			  url: 'https://www.calendarlabs.com/ical-calendar/ics/225/WHO_Health_Days.ics',

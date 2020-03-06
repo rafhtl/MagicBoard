@@ -187,7 +187,7 @@ Module.register("weather",{
 
 		var temperature = document.createElement("span");
 		temperature.className = "bright light";
-		temperature.innerHTML = " " + this.temperature.replace(".", this.config.decimalSymbol) + "&deg;<span class='deg shade'>F</span>";
+		temperature.innerHTML = " " + this.temperature.replace(".", this.config.decimalSymbol) + "&deg;<span class='deg shade'>C</span>";
 		large.appendChild(temperature);
 		wrapper.appendChild(large);
 		
