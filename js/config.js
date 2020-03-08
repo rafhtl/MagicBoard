@@ -8,7 +8,7 @@ var config = {
 	locationID:  "2643743",
 	timezone:    "Europe/London",
 	decimal: ".",
-	appid: '9bb3595ea8a97029639704c7d9ce56a0',
+	appid: '1041444a18cfb8448343254a45721b1d',
 	customCss: "css/main.css",
 	webServer: true,
 	useHttps: true,
